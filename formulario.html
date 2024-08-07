@@ -8,19 +8,24 @@
     </head>
     <body>
         <h1>Trabalhando com Formulares</h1>
-        <form action="enviando.php">
-            <label for="fname">Nome</label>
-            <input type= "text"  placeholder= "Nome"  name = "fname" />
-            <br><br>
-            <label for="lname">Sobrenome</label>
-            <input type= "text"  placeholder= "Sobrenome" name = "lname" />
-            <br><br>
-            <input type="button" value="enviar dados">
-        </form>
+        <fieldset>
+            <legend>Cadastro usuario</legend>
+            <form>
+                <label for="fname">Nome</label>
+                <input type= "text"  placeholder= "Nome"  name = "fname" />
+                <br><br>
+                <label for="lname">Sobrenome</label>
+                <input type= "text"  placeholder= "Sobrenome" name = "lname" />
+                <br><br>
+                <input type="button" value="Salvar">
+                <input type="submit" value="Enviar">
+            </form>
+        </fieldset>
+
 
 
         <hr>
-
+        <label for="estados"> Selecione seu estado: </label>
         <select name="estado" id="estados">
             <option value=""> Selecione uma opção.</option>
             <option value="PR"> Parana </option>
@@ -28,6 +33,24 @@
             <option value="GO"> Brasilia</option>
             <option value="RJ"> Rio de Janeiro</option>        
         </select>
+
+
+        <hr>
+    <textarea name="texto" id="textp" cols="50" rows="10"> </textarea>
+
+
+    <hr>
+        <form action="#">
+            <label for="cidades"> Selecione ou digite sua cidade:</label>
+            <input list="cidades">
+            <datalist id="cidades">
+                <option value="Fortaleza">
+                <option value="Parnaiba">    
+                <option value="Goiânia">
+                <option value="Brasilia">
+            </datalist>
+        </form>
+    </ht>
     </body>
     
 </html>
