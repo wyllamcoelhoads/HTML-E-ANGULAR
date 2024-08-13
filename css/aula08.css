@@ -41,3 +41,7 @@ h4 + p {
 p & h3 {
    color: chocolate; 
 }
+
+a, li, span {
+    color: red;
+}
