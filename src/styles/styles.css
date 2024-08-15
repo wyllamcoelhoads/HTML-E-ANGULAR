@@ -30,6 +30,7 @@ header {
     list-style: none;
     padding: 0;
     margin-left: auto;
+    position: relative;
 }
 
 #menu-links  ul li{
@@ -51,11 +52,24 @@ header {
 
 #menu-links ul li:last-child a{
     float: right;
-    background-color: #3a3a3a;
+   /* background-color: #3a3a3a;*/
 }
 
-#menu-links ul li:last-child a:hover{
+/*#menu-links ul li:last-child a:hover{
     float: right;
     background-color: #141414;
-    transition: all .6s;
+    transition: backgroud .6s;
+}*/
+
+#menu-links ul ul {
+    background-color: #341855;
+    display: none;
+    position: absolute;
+    left: 0;
+
+}
+
+
+#menu-links ul li:hover ul {
+    display:block;
 }
