@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Anatomia HTML</title>
+        <style>
+            table, td, th{
+                width: 50%;
+                border: 1px solid #000;
+                border-collapse: collapse;
+            }
+            th,td {
+                padding: 0px;
+            }
+            .par {
+                background-color: darkgray;
+            }
+            .impar{
+                background-color: aquamarine;
+            }
+            /*par ou impar em ingles é even ou odd*/
+            #tab01 tr:nth-child(even){
+                background-color:  teal;
+            }
+            #tab01 tr:nth-child(odd){
+                background-color:  blanchedalmond;
+            }
+
+            #tab01 th{
+                background-color: #555;
+                color: aliceblue;
+            }
+
+        </style>
+    </head>
+    <body>
+        <table id="tab01">
+            <thead>
+                <tr>
+                    <th>Aluno</th>
+                    <th>1° Bimestre</th>
+                    <th>2° Bimestre</th>
+                    <th>3° Bimestre</th>
+                    <th>4° Bimestre</th>
+                    <th>Média Final</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>João</td>
+                    <td>7.0</td>
+                    <td>6.0</td>
+                    <td>9.00</td>
+                    <td>8.00</td>
+                    <td>7.5</td> 
+                </tr>   
+                <tr>
+                    <td>Felisvania</td>
+                    <td>6.0</td>
+                    <td>8.0</td>
+                    <td>9.0</td>
+                    <td>10.00</td>
+                    <td>8.25</td>
+                </tr>  
+                <tr>
+                    <td>Antonio</td>
+                    <td>6.0</td>
+                    <td>8.0</td>
+                    <td>9.0</td>
+                    <td>10.00</td>
+                    <td>8.25</td>
+                </tr> 
+                <tr>
+                    <td>Maria</td>
+                    <td>6.0</td>
+                    <td>8.0</td>
+                    <td>9.0</td>
+                    <td>10.00</td>
+                    <td>8.25</td>
+                </tr> 
+                <tr>
+                    <td>Chico</td>
+                    <td>6.0</td>
+                    <td>5.0</td>
+                    <td>9.0</td>
+                    <td>1.00</td>
+                    <td>8.55</td>
+                </tr> 
+                <tr>
+                    <td>Fatima</td>
+                    <td>6.0</td>
+                    <td>8.8</td>
+                    <td>10.0</td>
+                    <td>10.00</td>
+                    <td>9.25</td>
+                </tr> 
+                <tr>
+                    <td>Willian</td>
+                    <td>7.0</td>
+                    <td>8.0</td>
+                    <td>9.0</td>
+                    <td>10.00</td>
+                    <td>1.25</td>
+                </tr> 
+                <tr>
+                    <td>Lorhana</td>
+                    <td>10.0</td>
+                    <td>10.0</td>
+                    <td>10.0</td>
+                    <td>10.00</td>
+                    <td>10.25</td>
+                </tr>        
+            </tbody>
+        </table>
+    </body>
+</html>
