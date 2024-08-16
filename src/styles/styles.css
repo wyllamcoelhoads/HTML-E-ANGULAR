@@ -29,10 +29,12 @@ header {
 #menu-links ul{
     list-style: none;
     padding: 0;
-    margin-left: auto;
     position: relative;
 }
 
+#menu-links ul.menu{
+    text-align: center;
+}
 #menu-links  ul li{
     display: inline;
 }
