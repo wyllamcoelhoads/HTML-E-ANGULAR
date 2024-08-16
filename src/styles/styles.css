@@ -16,9 +16,9 @@ body {
 header {
     border: 1px solid black;
     color: aliceblue;
-    background-color: black;
+    background-color: #5f1269;
     text-align: center;
-    padding: 30px;
+    padding: 12px;
 }
 
 #menu-links {
@@ -29,7 +29,6 @@ header {
 #menu-links ul{
     list-style: none;
     padding: 0;
-    position: relative;
 }
 
 #menu-links ul.menu{
@@ -37,6 +36,7 @@ header {
 }
 #menu-links  ul li{
     display: inline;
+    position: relative;
 }
 
 #menu-links li a{
@@ -51,17 +51,22 @@ header {
     background-color: #1f0e31;
 }
 
-
+/*
 #menu-links ul li:last-child a{
-    float: right;
-   /* background-color: #3a3a3a;*/
-}
+    
+    background-color: #3a3a3a;
+}*/
 
 /*#menu-links ul li:last-child a:hover{
     float: right;
     background-color: #141414;
     transition: backgroud .6s;
 }*/
+
+#menu > li:nth-child(5) > a {
+    float: right;
+    background-color: #141414;
+}
 
 #menu-links ul ul {
     background-color: #341855;
