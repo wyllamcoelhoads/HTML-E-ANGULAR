@@ -70,7 +70,7 @@ header {
 
 #menu-links ul ul {
     background-color: #341855;
-    display: none;
+   /* display: none;*/
     position: absolute;
     left: 0;
 
@@ -79,4 +79,9 @@ header {
 
 #menu-links ul li:hover ul {
     display:block;
+}
+
+#menu li ul a{
+
+
 }
